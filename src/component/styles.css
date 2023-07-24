@@ -1,0 +1,30 @@
+.content {
+ display: flex;
+ justify-content: end;
+ align-items: end;
+ gap: 15px;
+ flex-direction: column;
+}
+.input {
+  position: relative;
+}
+
+.error {
+  position: absolute;
+  color: red;
+  right: -40px;
+  top: 0;
+}
+
+.tab {
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  height: 32px;
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+.active {
+  border-color: #1677ff;
+  color: #1677ff;
+}
